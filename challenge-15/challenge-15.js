@@ -1,3 +1,5 @@
+(function(){
+
 /*
 Envolva todo o código desse desafio em uma IIFE.
 Crie um arquivo chamado index.html e adicione esse script ao HTML.
@@ -21,7 +23,22 @@ as seguintes características:
   adicionados à idade original (age). Esse método deverá retornar o objeto
   que será instanciado.
 */
-// ?
+function Person(name, lastName, age) {
+  this.name = name;
+  this.lastName = lastName;
+  this.age = age;
+  this.getFullName = function getFullName(){
+    return this.name + ' ' + this.lastName;
+  };
+  this.getAge = function getAge() {
+    return this.age;
+  };
+  this.addAge = function addAge(){
+    this.age += arguments[0];
+    return this;
+  }
+
+}
 
 /*
 Crie 3 novos objetos usando o construtor acima. Os objetos serão novas
@@ -30,13 +47,18 @@ parâmetros corretamente para o construtor para criar as novas pessoas.
 Mostre as 3 novas pessoas criadas no console (Um console.log por pessoa).
 */
 console.log( 'Novas pessoas criadas à partir de Person:' );
-// ?
+var javier = new Person('Javier', 'Sanchez', 33)
+var joao = new Person('Joao', 'Felipe', 40)
+var maria = new Person('Maria', 'Silva', 17)
+console.log(javier)
+console.log(joao)
+console.log(maria)
 
 /*
 Mostre no console o nome completo de cada pessoa.
 */
 console.log( '\nNomes das pessoas:' );
-// ?
+console.log( javier.getFullName())
 
 /*
 Mostre no console as idades de cada pessoa, com a frase:
@@ -52,3 +74,4 @@ cada um. A frase deverá ser no formato:
 */
 console.log( '\nNova idade das pessoas:' );
 // ?
+})();

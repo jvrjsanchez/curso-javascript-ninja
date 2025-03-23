@@ -13,7 +13,7 @@ console.log( [1, 2, 3, 4, 5].toString() ); '1,2,3,4,5'
 Crie 2 arrays `sul` e `sudeste`, que serão as regiões do Brasil.
 Cada array deve conter os estados dessa região.
 */
-var sul = ['Parana', 'Santa Catarina', 'Rio Grande do Sul'];
+var sul = ['Parana', 'Santa Catarina', 'Rio Grande do Sul', 'Argentina'];
 var sudeste = ['Espirito Santo', 'Minas Gerais', 'Rio de Janeiro', 'Sao Paulo'];
 
 /*

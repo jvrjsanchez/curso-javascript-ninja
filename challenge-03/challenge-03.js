@@ -35,6 +35,12 @@ alterar o valor da propriedade `idade` dessa pessoa, somando `1` a cada vez que
 for chamado.
 */
 
+function fazerAniversario() {
+    pessoa.idade++ 
+}
+
+
+
 /*
 Adicione um método ao objeto `pessoa` chamado `andar`, que terá as seguintes
 características:

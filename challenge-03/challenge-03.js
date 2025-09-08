@@ -52,8 +52,12 @@ valor dessa propriedade a quantidade passada por parâmetro;
 booleano que representa "verdadeiro";
 */
 
-function andar(){
-    
+
+pessoa.andar = function(metros) {
+    pessoa.caminhandoQuantosMetros ++
+    pessoa.andando = true
+    return 'pessao andando'
+
 }
 
 /*

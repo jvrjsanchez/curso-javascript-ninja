@@ -65,6 +65,8 @@ Adicione um método ao objeto `pessoa` chamado `parar`, que irá modificar o val
 da propriedade `andando` para o valor booleano que representa "falso".
 */
 
+
+
 /*
 Crie um método chamado `nomeCompleto`, que retorne a frase:
 - "Olá! Meu nome é [NOME] [SOBRENOME]!"

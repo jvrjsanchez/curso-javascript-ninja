@@ -52,6 +52,7 @@ valor dessa propriedade a quantidade passada por parâmetro;
 booleano que representa "verdadeiro";
 */
 
+var metros;
 
 pessoa.andar = function(metros) {
     pessoa.caminhandoQuantosMetros ++
@@ -65,7 +66,10 @@ Adicione um método ao objeto `pessoa` chamado `parar`, que irá modificar o val
 da propriedade `andando` para o valor booleano que representa "falso".
 */
 
-
+pessoa.parar = function() {
+    pessoa.andando = false
+    return 'pessoa parada'
+}
 
 /*
 Crie um método chamado `nomeCompleto`, que retorne a frase:

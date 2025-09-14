@@ -232,3 +232,5 @@ pessoa.apresentacao = function(){
 }
 
 // Agora, apresente-se ;)
+
+//Ola eu sou o Javier Sanchez, tenho 34 anos, 1.85m, meu peso e 94Kg e, so hoje, eu ja caminhei 111 metros!

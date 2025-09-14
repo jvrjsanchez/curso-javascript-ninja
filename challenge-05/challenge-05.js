@@ -23,12 +23,19 @@ segundo, um número. A função deve retornar o valor de um índice do array que
 no primeiro parâmetro. O índice usado para retornar o valor, deve ser o número passado no
 segundo parâmetro.
 */
-// ?
+var numero;
+
+var algumaFunction = function(qualquer, numero){
+    if(numero === qualquerFunction(1)){
+        return numero
+
+    }
+}
 
 /*
 Declare uma variável que recebe um array com 5 valores, de tipos diferentes.
 */
-// ?
+var myVar = [0, 'string', true, NaN, undefined]
 
 /*
 Invoque a função criada acima, fazendo-a retornar todos os valores do último

@@ -84,22 +84,37 @@ pessoa.nomeCompleto = function(){
 Crie um método chamado `mostrarIdade`, que retorne a frase:
 - "Olá, eu tenho [IDADE] anos!"
 */
+ 
+pessoa.mostrarIdade = function(){
+    return 'Ola, eu tenho ' + pessoa.idade + ' anos!'
+}
 
 /*
 Crie um método chamado `mostrarPeso`, que retorne a frase:
 - "Eu peso [PESO]Kg."
 */
 
+pessoa.mostrarPeso = function(){
+    return 'Eu peso ' + pessoa.peso + 'Kg.'
+}
+
 /*
 Crie um método chamado `mostrarAltura` que retorne a frase:
 - "Minha altura é [ALTURA]m."
 */
+
+pessoa.mostrarAltura = function(){
+    return 'Minha altura e ' + pessoa.altura + 'm.'
+}
 
 /*
 Agora vamos brincar um pouco com o objeto criado:
 Qual o nome completo da pessoa? (Use a instrução para responder e comentários
 inline ao lado da instrução para mostrar qual foi a resposta retornada)
 */
+
+pessoa.nomeCompleto() 
+//Ola o meu nome e Javier Sanchez!
 
 /*
 Qual a idade da pessoa? (Use a instrução para responder e comentários

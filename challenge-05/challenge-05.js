@@ -2,17 +2,20 @@
 Crie uma variável qualquer, que receba um array com alguns valores aleatórios
 - ao menos 5 - (fica por sua conta os valores do array).
 */
-// ?
+var qualquer = [0, 1, 2, 3, 4];
 
 /*
 Crie uma função que receba um array como parâmetro, e retorne esse array.
 */
-// ?
+var qualquerFunction = function(qualquer){
+    return qualquer;
+
+}
 
 /*
 Imprima o segundo índice do array retornado pela função criada acima.
 */
-// ?
+qualquerFunction(1)
 
 /*
 Crie uma função que receba dois parâmetros: o primeiro, um array de valores; e o

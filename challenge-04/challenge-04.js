@@ -15,14 +15,13 @@ var isTruthy = function(valor){
 }
 
 // Invoque a função criada acima, passando todos os tipos de valores `falsy`.
-console.log(isTruthy(falsy))
+console.log(isTruthy(NaN, undefined, null, "", '', 0, -0))
 
 
 /*
 Invoque a função criada acima passando como parâmetro 10 valores `truthy`.
 */
-console.log(isTruthy(truthy, truthy, truthy, truthy, truthy, truthy, truthy, truthy, truthy, truthy))
-
+console.log(isTruthy(true, 100.0, "100", '100', 'valor', {}, [], 2*'valor', 2*valor, "hello world"))
 /*
 Declare uma variável chamada `carro`, atribuindo à ela um objeto com as
 seguintes propriedades (os valores devem ser do tipo mostrado abaixo):

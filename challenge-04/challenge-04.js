@@ -21,7 +21,7 @@ console.log(isTruthy(falsy))
 /*
 Invoque a função criada acima passando como parâmetro 10 valores `truthy`.
 */
-?
+console.log(isTruthy(truthy, truthy, truthy, truthy, truthy, truthy, truthy, truthy, truthy, truthy))
 
 /*
 Declare uma variável chamada `carro`, atribuindo à ela um objeto com as

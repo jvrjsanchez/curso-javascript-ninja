@@ -34,18 +34,31 @@ seguintes propriedades (os valores devem ser do tipo mostrado abaixo):
 - `assentos` - Number - cinco por padrão
 - `quantidadePessoas` - Number - zero por padrão
 */
-?
+var carro = {
+    marca: 'Ford',
+    modelo: 'Mustang',
+    place: 'DOGECOIN',
+    ano: 1984,
+    cor: 'black',
+    quantasPortas: 2,
+    assentos: 2,
+    quantidadePessoas: 0
+};
 
 /*
 Crie um método chamado `mudarCor` que mude a cor do carro conforme a cor
 passado por parâmetro.
 */
-?
+function mudarCor(cor){
+    carro.cor == 'red'
+} 
 
 /*
 Crie um método chamado `obterCor`, que retorne a cor do carro.
 */
-?
+function obterCor(cor){
+    return(cor)
+}
 
 /*
 Crie um método chamado `obterModelo` que retorne o modelo do carro.

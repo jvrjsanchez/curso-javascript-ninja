@@ -49,26 +49,29 @@ var carro = {
 Crie um método chamado `mudarCor` que mude a cor do carro conforme a cor
 passado por parâmetro.
 */
-function mudarCor(cor){
-    carro.cor == 'red'
+carro.mudarCor = function (cor){
+    carro.cor = cor
 } 
 
 /*
 Crie um método chamado `obterCor`, que retorne a cor do carro.
 */
-function obterCor(cor){
-    return(cor)
+carro.obterCor = function (cor){
+    return(carro.cor)
 }
 
 /*
 Crie um método chamado `obterModelo` que retorne o modelo do carro.
 */
-?
-
+carro.obterModelo = function (modelo){
+    return(carro.modelo)
+}
 /*
 Crie um método chamado `obterMarca` que retorne a marca do carro.
 */
-?
+carro.obterMarca = function (marca) {
+    return(carro.marca)
+}
 
 /*
 Crie um método chamado `obterMarcaModelo`, que retorne:

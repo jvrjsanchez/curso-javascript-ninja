@@ -63,13 +63,13 @@ carro.obterCor = function (cor){
 /*
 Crie um método chamado `obterModelo` que retorne o modelo do carro.
 */
-carro.obterModelo = function (modelo){
+carro.obterModelo = function (){
     return(carro.modelo)
 }
 /*
 Crie um método chamado `obterMarca` que retorne a marca do carro.
 */
-carro.obterMarca = function (marca) {
+carro.obterMarca = function () {
     return(carro.marca)
 }
 
@@ -78,7 +78,9 @@ Crie um método chamado `obterMarcaModelo`, que retorne:
 "Esse carro é um [MARCA] [MODELO]"
 Para retornar os valores de marca e modelo, utilize os métodos criados.
 */
-?
+carro.obterMarcaModelo = function () {
+    return console.log('Esse carro e um '+ carro.obterMarca() + ' ' + carro.obterModelo() + ' "')
+}
 
 /*
 Crie um método que irá adicionar pessoas no carro. Esse método terá as

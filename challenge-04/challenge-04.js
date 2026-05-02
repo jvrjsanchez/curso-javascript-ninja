@@ -51,7 +51,7 @@ passado por parâmetro.
 */
 carro.mudarCor = function (cor){
     carro.cor = cor
-} 
+}
 
 /*
 Crie um método chamado `obterCor`, que retorne a cor do carro.
@@ -79,7 +79,7 @@ Crie um método chamado `obterMarcaModelo`, que retorne:
 Para retornar os valores de marca e modelo, utilize os métodos criados.
 */
 carro.obterMarcaModelo = function () {
-    return console.log('Esse carro e um '+ carro.obterMarca() + ' ' + carro.obterModelo() + ' "')
+    return console.log('Esse carro e '+ carro.obterMarca() + ' ' + carro.obterModelo() + ' "')
 }
 
 /*

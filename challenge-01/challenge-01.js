@@ -19,10 +19,17 @@ soma *= 3;
 soma = 72;
 
 // Declare uma variável chamada `souninja`, atribuindo à ela o valor booleano que representa `verdadeiro`.
+<<<<<<< HEAD
 var souninja = "True";
 
 // Declare uma variável chamada `comida` que recebe um array com os valores 'arroz', 'feijão' e 'ovo'.
 var comida = ["arroz", "pizza", "pizza"];
+=======
+var souninja = True;
+
+// Declare uma variável chamada `comida` que recebe um array com os valores 'arroz', 'feijão' e 'ovo'.
+var comida = ["arroz", "feijao", "carne de sol"];
+>>>>>>> origin/challenge-01
 
 // Digite a instrução que imprime o valor de 'feijao', que está na variável `comida`.
 console.log(comida[1]);

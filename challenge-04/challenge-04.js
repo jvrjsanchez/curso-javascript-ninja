@@ -37,7 +37,7 @@ seguintes propriedades (os valores devem ser do tipo mostrado abaixo):
 var carro = {
     marca: 'Ford',
     modelo: 'Mustang',
-    place: 'BITCOIN',
+    place: 'ETHEREUM',
     ano: 1984,
     cor: 'black',
     quantasPortas: 2,

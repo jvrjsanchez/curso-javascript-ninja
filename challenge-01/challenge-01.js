@@ -22,7 +22,7 @@ soma = 72;
 var souninja = True;
 
 // Declare uma variável chamada `comida` que recebe um array com os valores 'arroz', 'feijão' e 'ovo'.
-var comida = ["arroz", "feijao", "carne de sol"];
+var comida = ["arroz", "feijao", "picanha"];
 
 // Digite a instrução que imprime o valor de 'feijao', que está na variável `comida`.
 console.log(comida[1]);

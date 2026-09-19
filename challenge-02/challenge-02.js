@@ -7,8 +7,6 @@ function car(x, y) {
   sum = x + y;
   return sum;
 }
-function(){
-}
 
 // Declare uma variável que receba a invocação da função criada acima, passando dois números quaisquer por argumento, e somando `5` ao resultado retornado da função.
 var newSum = car(8, 10) + 5;

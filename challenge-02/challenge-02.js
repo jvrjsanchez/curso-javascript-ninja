@@ -7,12 +7,15 @@ function car(x, y) {
   sum = x + y;
   return sum;
 }
+function() {
+  
+}
 
 // Declare uma variável que receba a invocação da função criada acima, passando dois números quaisquer por argumento, e somando `5` ao resultado retornado da função.
 var newSum = car(8, 10) + 5;
 
 // Qual o valor atualizado dessa variável?
-//23;
+console.log(23);
 
 // Declare uma nova variável, sem valor.
 var value = null;

@@ -4,6 +4,7 @@
 // Declarar uma variável qualquer, que receba um objeto vazio.
 function() {}
 function() {}
+function() {}
 
 /*
 Declarar uma variável `pessoa`, que receba suas informações pessoais.

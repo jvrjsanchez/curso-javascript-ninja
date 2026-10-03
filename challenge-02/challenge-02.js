@@ -51,13 +51,13 @@ function newValues(x, y, z) {
 console.log(newValues(5, 7));
 
 // Qual o resultado da invocação acima? (Use comentários para mostrar o valor retornado).
-//"Preencha todos os valores corretamente!";
+console.log("Preencha todos os valores corretamente!");
 
 // Agora invoque novamente a função criada acima, mas passando todos os três argumentos necessários.
 console.log(newValues(1, 2, 3));
 
 // Qual o resultado da invocação acima? (Use comentários para mostrar o valor retornado).
-//8;
+console.log(8);
 
 /*
 Crie uma função com as seguintes características:

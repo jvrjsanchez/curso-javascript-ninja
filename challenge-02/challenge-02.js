@@ -4,8 +4,8 @@
 
 // Crie uma função que receba dois argumentos e retorne a soma dos mesmos.
 function car(x, y) {
-  sum = x + y;
-  return sum;
+  soma = x + y;
+  return soma;
 }
 
 // Declare uma variável que receba a invocação da função criada acima, passando dois números quaisquer por argumento, e somando `5` ao resultado retornado da função.

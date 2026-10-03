@@ -21,7 +21,7 @@ var pessoa = {
 nome: 'Javier',
 sobrenome: 'Sanchez',
 sexo: 'Masculino',
-idade: 34,
+idade: 35,
 altura: 1.88,
 peso: 100, 
 andando: false,

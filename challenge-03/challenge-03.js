@@ -1,3 +1,6 @@
+/*
+hello
+*/
 /* Desafio da semana #3 */
 console.log("hi there");
 
